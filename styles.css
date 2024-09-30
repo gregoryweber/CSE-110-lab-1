@@ -53,6 +53,19 @@
   max-width: 100%;
 }
 
+#section-4 {
+  background-image: url("bg-orbs-1.jpg");
+  color: white;
+  display: inline-block;
+  scroll-margin-top: 147px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#section-4 img {
+  max-width: 100%;
+}
+
 #wrapper {
   display: grid;
   gap: 25px;
