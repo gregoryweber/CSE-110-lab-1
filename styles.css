@@ -1,3 +1,21 @@
+@media screen and (max-width: 800px) {
+  #navbar a {
+    display: none;
+  }
+  #navbar img {
+    max-width: 75%;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+  #wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 #section-1 {
   background-color: rgb(245, 240, 230);
   display: inline-block;
@@ -6,8 +24,8 @@
   padding-right: 10px;
 }
 
-#section-1 p {
-  font-size: 28px;
+#section-1 img {
+  max-width: 100%;
 }
 
 #section-2 {
@@ -19,12 +37,8 @@
   padding-right: 10px;
 }
 
-#section-2 p {
-  font-size: 28px;
-}
-
 #section-2 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 #section-3 {
@@ -35,15 +49,14 @@
   padding-right: 10px;
 }
 
-#section-3 p {
-  font-size: 28px;
+#section-3 img {
+  max-width: 100%;
 }
 
-#section-3 #wrapper {
+#wrapper {
   display: grid;
   gap: 25px;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 #navbar {
@@ -58,13 +71,23 @@
   max-width: 400px;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+@media screen and (min-width: 801px) {
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  #wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 #navbar img {
