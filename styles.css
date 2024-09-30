@@ -47,6 +47,7 @@
   scroll-margin-top: 147px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 30px;
 }
 
 #section-3 img {
@@ -60,6 +61,9 @@
   scroll-margin-top: 147px;
   padding-left: 10px;
   padding-right: 10px;
+  padding: 20px;
+  padding-right: 0px;
+  width: 98%;
 }
 
 #section-4 img {
